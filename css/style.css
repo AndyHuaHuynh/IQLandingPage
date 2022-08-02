@@ -8,9 +8,10 @@
     padding: 0;
 }
 .header{
-    background: rgb(0, 0, 0);
+    background: url(/img/background.jpg);
     display: flex;
     justify-content: space-between;
+    
 }
 .logo1{
     width: 60px;
@@ -29,7 +30,6 @@
 }
 .right{
     display: flex;
-    
 }
 ul{
     list-style: none;
