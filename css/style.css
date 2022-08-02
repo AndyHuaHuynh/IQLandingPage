@@ -1,0 +1,50 @@
+@font-face {
+    font-family: onepiecefont;
+    src: url(/fonts/onepiecefont.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.logo1{
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+}
+.title{
+    color: white;
+    font-family: onepiecefont;
+    font-size: 60px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.right{
+    display: flex;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin-right: 20px;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: onepiecefont;
+    display: flex;
+    font-size: 50px;
+}
+a:hover{
+    text-decoration: underline;
+}
