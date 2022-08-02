@@ -2,13 +2,21 @@
     font-family: onepiecefont;
     src: url(/fonts/onepiecefont.ttf);
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+}
 *{
     margin: 0;
     padding: 0;
 }
-.header{
+.container{
     background: url(/img/background.jpg);
+    background-size: cover;
+    height: 937px;
+    background-position: fixed;
+}
+.header{
     display: flex;
     justify-content: space-between;
     
@@ -19,7 +27,7 @@
     margin-left: 20px;
 }
 .title{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: onepiecefont;
     font-size: 60px;
 }
@@ -48,3 +56,38 @@ a{
 a:hover{
     text-decoration: underline;
 }
+.crew{
+    height: 400px;
+}
+.introduction{
+    background: rgba(0, 0, 0, 0.464);
+    border-radius: 25px;
+    display: flex;
+    padding: 10px;
+    margin: 200px;
+    margin-top: 150px;
+    border: 3px solid #dadada;
+}
+.introduction:focus{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.left-text{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    color: white;
+}
+.big-text{
+    font-size: 60px;
+    font-family: onepiecefont;
+}
+.small-text{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
